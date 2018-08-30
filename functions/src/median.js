@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = ( numbers ) => {
+module.exports = numbers => {
     numbers.sort ((a,b) => a - b);
     const half = Math.floor (numbers.length/2);
     return numbers.length % 2 
