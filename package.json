@@ -1,6 +1,6 @@
 {
   "name": "arithmetic-functions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "gitads"
+    "url": "https://github.com/carlosramosa/arithmetic-functions"
   },
   "keywords": [
     "arithmetics"
