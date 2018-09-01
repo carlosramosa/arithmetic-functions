@@ -12,6 +12,15 @@
   },
   "keywords": [
     "arithmetics"
+    , "average"
+    , "mean"
+    , "coefficient"
+    , "mode"
+    , "standard deviation"
+    , "deviation"
+    , "percentile"
+    , "variance"
+    , "statistics"
   ],
   "author": "ramosar",
   "license": "ISC"
