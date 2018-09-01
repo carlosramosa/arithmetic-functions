@@ -7,9 +7,10 @@ module.exports = numbers => {
         acc[number] = repetitions + 1;
         return acc;
     }, {} );
-    return Object.keys( map ).reduce(( acc, n ) =>
-        map[n] > acc
-            ? map[n]
+    const position = Object.keys( map ).reduce(( acc, n ) =>
+        map[n] >  map[acc]
+            ? n
             : acc
-        , map[Object.keys( map )[ 0 ] ])
+        , Object.keys( map )[ 0 ] );
+    return position;
 };

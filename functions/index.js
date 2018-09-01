@@ -8,5 +8,5 @@ module.exports = {
     , percentile: require ('./src/percentile')
     , medianAbsoluteDeviation: require ('./src/medianAbsoluteDeviation')
     , mode: require ('./src/mode')
-    , coefficient: require ('./src/coeffiicience')
+    , coefficient: require ('./src/coefficient')
 };
